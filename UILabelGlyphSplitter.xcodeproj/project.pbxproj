@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8471EB281AE3DC2300530052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471EB271AE3DC2300530052 /* main.m */; };
+		8471EB2B1AE3DC2300530052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471EB2A1AE3DC2300530052 /* AppDelegate.m */; };
+		8471EB2E1AE3DC2300530052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471EB2D1AE3DC2300530052 /* ViewController.m */; };
+		8471EB311AE3DC2300530052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8471EB2F1AE3DC2300530052 /* Main.storyboard */; };
+		8471EB331AE3DC2300530052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8471EB321AE3DC2300530052 /* Images.xcassets */; };
+		8471EB361AE3DC2300530052 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8471EB341AE3DC2300530052 /* LaunchScreen.xib */; };
+		8471EB421AE3DC2300530052 /* UILabelGlyphSplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471EB411AE3DC2300530052 /* UILabelGlyphSplitterTests.m */; };
+		DD0743481AF6247B005CFBA2 /* SplitLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0743471AF6247B005CFBA2 /* SplitLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8471EB3C1AE3DC2300530052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8471EB1A1AE3DC2300530052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8471EB211AE3DC2300530052;
+			remoteInfo = UILabelGlyphSplitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8471EB221AE3DC2300530052 /* UILabelGlyphSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelGlyphSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471EB261AE3DC2300530052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471EB271AE3DC2300530052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8471EB291AE3DC2300530052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8471EB2A1AE3DC2300530052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8471EB2C1AE3DC2300530052 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8471EB2D1AE3DC2300530052 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8471EB301AE3DC2300530052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8471EB321AE3DC2300530052 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8471EB351AE3DC2300530052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8471EB3B1AE3DC2300530052 /* UILabelGlyphSplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelGlyphSplitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471EB401AE3DC2300530052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471EB411AE3DC2300530052 /* UILabelGlyphSplitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelGlyphSplitterTests.m; sourceTree = "<group>"; };
+		DD0743461AF6247B005CFBA2 /* SplitLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitLabel.h; sourceTree = "<group>"; };
+		DD0743471AF6247B005CFBA2 /* SplitLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8471EB1F1AE3DC2300530052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471EB381AE3DC2300530052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8471EB191AE3DC2300530052 = {
+			isa = PBXGroup;
+			children = (
+				8471EB241AE3DC2300530052 /* UILabelGlyphSplitter */,
+				8471EB3E1AE3DC2300530052 /* UILabelGlyphSplitterTests */,
+				8471EB231AE3DC2300530052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8471EB231AE3DC2300530052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8471EB221AE3DC2300530052 /* UILabelGlyphSplitter.app */,
+				8471EB3B1AE3DC2300530052 /* UILabelGlyphSplitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8471EB241AE3DC2300530052 /* UILabelGlyphSplitter */ = {
+			isa = PBXGroup;
+			children = (
+				8471EB291AE3DC2300530052 /* AppDelegate.h */,
+				8471EB2A1AE3DC2300530052 /* AppDelegate.m */,
+				8471EB2C1AE3DC2300530052 /* ViewController.h */,
+				8471EB2D1AE3DC2300530052 /* ViewController.m */,
+				DD0743461AF6247B005CFBA2 /* SplitLabel.h */,
+				DD0743471AF6247B005CFBA2 /* SplitLabel.m */,
+				8471EB2F1AE3DC2300530052 /* Main.storyboard */,
+				8471EB321AE3DC2300530052 /* Images.xcassets */,
+				8471EB341AE3DC2300530052 /* LaunchScreen.xib */,
+				8471EB251AE3DC2300530052 /* Supporting Files */,
+			);
+			path = UILabelGlyphSplitter;
+			sourceTree = "<group>";
+		};
+		8471EB251AE3DC2300530052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8471EB261AE3DC2300530052 /* Info.plist */,
+				8471EB271AE3DC2300530052 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8471EB3E1AE3DC2300530052 /* UILabelGlyphSplitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8471EB411AE3DC2300530052 /* UILabelGlyphSplitterTests.m */,
+				8471EB3F1AE3DC2300530052 /* Supporting Files */,
+			);
+			path = UILabelGlyphSplitterTests;
+			sourceTree = "<group>";
+		};
+		8471EB3F1AE3DC2300530052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8471EB401AE3DC2300530052 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8471EB211AE3DC2300530052 /* UILabelGlyphSplitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471EB451AE3DC2300530052 /* Build configuration list for PBXNativeTarget "UILabelGlyphSplitter" */;
+			buildPhases = (
+				8471EB1E1AE3DC2300530052 /* Sources */,
+				8471EB1F1AE3DC2300530052 /* Frameworks */,
+				8471EB201AE3DC2300530052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILabelGlyphSplitter;
+			productName = UILabelGlyphSplitter;
+			productReference = 8471EB221AE3DC2300530052 /* UILabelGlyphSplitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8471EB3A1AE3DC2300530052 /* UILabelGlyphSplitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471EB481AE3DC2300530052 /* Build configuration list for PBXNativeTarget "UILabelGlyphSplitterTests" */;
+			buildPhases = (
+				8471EB371AE3DC2300530052 /* Sources */,
+				8471EB381AE3DC2300530052 /* Frameworks */,
+				8471EB391AE3DC2300530052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8471EB3D1AE3DC2300530052 /* PBXTargetDependency */,
+			);
+			name = UILabelGlyphSplitterTests;
+			productName = UILabelGlyphSplitterTests;
+			productReference = 8471EB3B1AE3DC2300530052 /* UILabelGlyphSplitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8471EB1A1AE3DC2300530052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = corsarus;
+				TargetAttributes = {
+					8471EB211AE3DC2300530052 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8471EB3A1AE3DC2300530052 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8471EB211AE3DC2300530052;
+					};
+				};
+			};
+			buildConfigurationList = 8471EB1D1AE3DC2300530052 /* Build configuration list for PBXProject "UILabelGlyphSplitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8471EB191AE3DC2300530052;
+			productRefGroup = 8471EB231AE3DC2300530052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8471EB211AE3DC2300530052 /* UILabelGlyphSplitter */,
+				8471EB3A1AE3DC2300530052 /* UILabelGlyphSplitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8471EB201AE3DC2300530052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471EB311AE3DC2300530052 /* Main.storyboard in Resources */,
+				8471EB361AE3DC2300530052 /* LaunchScreen.xib in Resources */,
+				8471EB331AE3DC2300530052 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471EB391AE3DC2300530052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8471EB1E1AE3DC2300530052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471EB2E1AE3DC2300530052 /* ViewController.m in Sources */,
+				8471EB2B1AE3DC2300530052 /* AppDelegate.m in Sources */,
+				8471EB281AE3DC2300530052 /* main.m in Sources */,
+				DD0743481AF6247B005CFBA2 /* SplitLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471EB371AE3DC2300530052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471EB421AE3DC2300530052 /* UILabelGlyphSplitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8471EB3D1AE3DC2300530052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8471EB211AE3DC2300530052 /* UILabelGlyphSplitter */;
+			targetProxy = 8471EB3C1AE3DC2300530052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8471EB2F1AE3DC2300530052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8471EB301AE3DC2300530052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8471EB341AE3DC2300530052 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8471EB351AE3DC2300530052 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8471EB431AE3DC2300530052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8471EB441AE3DC2300530052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8471EB461AE3DC2300530052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UILabelGlyphSplitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8471EB471AE3DC2300530052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UILabelGlyphSplitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8471EB491AE3DC2300530052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UILabelGlyphSplitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelGlyphSplitter.app/UILabelGlyphSplitter";
+			};
+			name = Debug;
+		};
+		8471EB4A1AE3DC2300530052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UILabelGlyphSplitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabelGlyphSplitter.app/UILabelGlyphSplitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8471EB1D1AE3DC2300530052 /* Build configuration list for PBXProject "UILabelGlyphSplitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471EB431AE3DC2300530052 /* Debug */,
+				8471EB441AE3DC2300530052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8471EB451AE3DC2300530052 /* Build configuration list for PBXNativeTarget "UILabelGlyphSplitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471EB461AE3DC2300530052 /* Debug */,
+				8471EB471AE3DC2300530052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8471EB481AE3DC2300530052 /* Build configuration list for PBXNativeTarget "UILabelGlyphSplitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471EB491AE3DC2300530052 /* Debug */,
+				8471EB4A1AE3DC2300530052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8471EB1A1AE3DC2300530052 /* Project object */;
+}
